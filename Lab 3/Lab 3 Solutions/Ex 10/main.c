@@ -14,14 +14,14 @@
 #define l1 10
 #define l2 15
 
-#include "array.h"
+#include "headers/array.h"
 
 int main() {
 	// declaration of arrays
 	int t1[l1], t2[l2];
 
 	// setting the seed of the pseudo-random number generator
-	srand(time(NULL));
+	srand(0);
 
 	// filling the arrays with random numbers
 	fill_array(t1, l1);

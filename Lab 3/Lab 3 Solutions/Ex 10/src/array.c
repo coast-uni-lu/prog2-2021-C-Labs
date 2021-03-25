@@ -10,7 +10,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-#include "array.h"
+#include "../headers/array.h"
 
 /*
  * This function fills an array of given size with random numbers between 0 and 99.

@@ -7,6 +7,7 @@
 
 #include<stdio.h>
 #include<ctype.h>
+#include <string.h>
 
 #define ALPHABET_SIZE 26
 
@@ -15,8 +16,8 @@ int main() {
 	int letters[ALPHABET_SIZE], c;
 
 	// initialization of the frequency table
-	for(int i = 0; i < ALPHABET_SIZE; )
-		letters[i++] = 0;
+	// for(int i = 0; i < ALPHABET_SIZE; )
+	// 	letters[i++] = 0;
 
 	// input read in
 	while((c = getchar()) != EOF) {

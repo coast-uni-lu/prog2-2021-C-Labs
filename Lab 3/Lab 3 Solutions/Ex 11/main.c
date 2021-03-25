@@ -10,7 +10,7 @@
 #include <time.h>
 
 #define N 10
-#define PROBABILITY 75
+#define PROBABILITY 50
 
 #define MINE 1
 #define EMPTY 0
